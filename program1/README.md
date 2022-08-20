@@ -1,3 +1,2 @@
 # First Python PROGRAM
-def greet(lang):
-    if lang
+This is my first program in python
