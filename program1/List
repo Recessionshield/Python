@@ -1,0 +1,17 @@
+# list
+a = [3, 10, -1]
+# csdojo.io/python4
+#PyCharm, IDE
+print(a)
+[3, 10, -1]
+a.append(1 )
+a.append("hello")
+print(a)
+a.append([1, 2])
+print(a)
+# to delete
+a.pop()
+print(a)
+# to delete the string
+a.pop()
+print(a)
