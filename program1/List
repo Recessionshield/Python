@@ -15,3 +15,22 @@ print(a)
 # to delete the string
 a.pop()
 print(a)
+# append and pop are two of the most common fuctions
+print(a[0])
+print(a[3])
+a [0] = 100
+print(a)
+
+# exercise
+
+b = ["banana", "apple", "microsoft"]
+print(b)
+temp = b[0]
+b[0] = b[2]
+b[2] = temp
+print(b)
+
+#shortcut to swap two variables
+
+b[0], b[2] = b[2], b[0]
+print(b)
