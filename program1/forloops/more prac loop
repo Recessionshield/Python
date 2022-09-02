@@ -1,0 +1,29 @@
+a= ['banana', "apple", "microsoft"]
+
+for element in a:
+    print(element)
+    print(element)
+
+B = [20, 10, 5]
+total = 0
+for e in b:
+    print(e)
+    total
+
+# 1,2, 3, 4
+c = list(range(1, 5))
+print(c)
+
+total2 = 0
+for i in range(1, 5):
+    total2 += i
+    
+print(list(range(1, 8)))
+
+# MODULAR: to chech is something is true
+
+tatal3 = 0
+for i in range(1, 8):
+    if :
+        tatal3 += 1
+        
