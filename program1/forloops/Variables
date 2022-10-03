@@ -1,0 +1,58 @@
+from threading import ThreadError
+
+from psutil import virtual_memory
+
+
+print("more string")
+print(3)
+a = 1 
+print(a)
+b = 2
+print(b)
+print(a)
+print(b)
+c = "hello there"
+print(c)
+c = "hello There"
+print(b)
+b = 1
+e = "this is a string"
+print(e)
+print(a)
+f = a 
+print(f)
+a = 2 
+print(a)
+print(f)
+#exercire practice
+#swapping to variables
+# how can you swap these 2 V1 = "first string" v2 = "second string"
+v1 = "first string"
+v2 = "second string"
+print(v1)
+print(v2)
+#results
+v2 = "first string"
+v1 = "second string"
+print(v1)
+print(v2)
+#better OPTIONs
+temp1 = v1
+temp2 = v2
+#swapping results
+v1 = temp2
+v2 = temp1
+# 2nd option
+v1 = "first string"
+v2 = "second string"
+#solution
+temp = v1
+v1 = v2
+v2 = temp
+#practice 
+V1 = "first string"
+v2 = "second string"
+
+temp1 = v1
+v1 = v2
+v2 = temp1
