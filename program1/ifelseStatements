@@ -1,0 +1,8 @@
+a = 1
+b = 2 
+if a < b:
+    print("a is less than b")
+    print("a is definitely less than b")
+ # the line above is called an "if clause"
+ # keep an eye on the space
+print("Not sure is a is less than b") 
